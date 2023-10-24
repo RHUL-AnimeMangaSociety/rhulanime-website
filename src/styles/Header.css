@@ -1,0 +1,38 @@
+:root {
+    --light-purple: #ECD7FF;
+    --purple: #816EB7;
+    --orange: #F18A1E;
+    --yellow: #F7C321;
+    --turquoise: #00D4E4
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    background-color: var(--purple);
+    height: 100px;
+}
+
+.menu-links {
+    /* Removing defaults */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-links a:hover {
+    color: var(--light-purple);
+}
