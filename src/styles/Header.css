@@ -94,6 +94,7 @@
     }
 
     .mobile-logo {
+        display: block;
         transform: translateX(25px);
     }
 
