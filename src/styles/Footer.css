@@ -1,0 +1,24 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--medium-purple);
+    padding: 1%;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+.footer-container a {
+    text-decoration: underline;
+    color: var(--purple);
+}
+
+.footer-container a:hover {
+    color: rebeccapurple;
+    transition: 0.5s ease-in-out;
+}

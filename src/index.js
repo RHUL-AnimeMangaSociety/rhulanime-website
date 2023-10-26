@@ -7,11 +7,18 @@ import reportWebVitals from './reportWebVitals';
 
 // Components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+      {/* Leave this at the top */}
+      <Header />
+
+      {/* Put other components in below */}
+
+      {/* Leave this at the bottom */}
+      <Footer />
   </React.StrictMode>
 );
 
