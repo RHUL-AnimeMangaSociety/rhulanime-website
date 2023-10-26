@@ -1,5 +1,8 @@
-footer {
-    position: absolute;
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: var(--medium-purple);
@@ -10,12 +13,12 @@ footer {
     color: white;
 }
 
-footer a {
+.footer-container a {
     text-decoration: underline;
     color: var(--purple);
 }
 
-footer a:hover {
+.footer-container a:hover {
     color: rebeccapurple;
     transition: 0.5s ease-in-out;
 }
