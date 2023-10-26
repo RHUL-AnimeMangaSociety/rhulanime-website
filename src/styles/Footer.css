@@ -1,0 +1,21 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--medium-purple);
+    padding: 1%;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--purple);
+}
+
+footer a:hover {
+    color: rebeccapurple;
+    transition: 0.5s ease-in-out;
+}
